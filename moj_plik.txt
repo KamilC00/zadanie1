@@ -1,0 +1,13 @@
+kilka lini 
+
+1. Zainicjuj nowe repozytorium Git w dowolnym folderze na swoim komputerze, u¾ywaj¥c komendy:
+git init
+2. Utw¢rz nowy plik tekstowy o nazwie "moj_plik.txt" wewn¥trz tego repozytorium i dodaj kilka przykˆadowych linii tekstu do tego pliku.
+3. U¾yj komendy git status, aby sprawdzi† stan repozytorium. Zobaczysz, ¾e plik "moj_plik.txt" jest nierozpoznany przez Git.
+4. Dodaj plik "moj_plik.txt" do indeksu przy u¾yciu komendy git add:
+git add moj_plik.txt
+5. Ponownie u¾yj git status, aby zobaczy†, ¾e plik zostaˆ dodany do indeksu.
+6. Teraz wykonaj commit, aby zatwierdzi† zmiany w indeksie. U¾yj komendy git commit z odpowiednim komunikatem:
+git commit -m "Dodano moj_plik.txt"
+7. Plik "moj_plik.txt" jest teraz ˜ledzony w repozytorium i ma zatwierdzony stan.
+8. Mo¾esz r¢wnie¾ utworzy† zdalne repozytorium (na platformie takiej jak GitHub lub GitLab) i udost©pni† je innym osobom, aby pokaza†, jak mo¾na wsp¢ˆpracowa† nad projektem i udost©pnia† zmiany.
